@@ -5,9 +5,10 @@ Setup instuctions:
 
 ``` git clone {project-url}```
 
-2. Make sure you have mysql server not running on your mache.ine, and your port 80 is free. Then go to docker folder and run compose with build flag on
+2. Make sure you have mysql server not running on your mache.ine, and your port 80 is free. Then go to docker folder, make sure to change to MYSQL_ROOT_PASSWORD in docker-compose.yml if you want to use another password for the database. It is set to ```root``` in docker-compose.yml. Then run compose up with build flag on
 
 ``` cd docker```
+
 ``` docker compose up -d --build```
 
 3. Connect to mysql server of docker with whatever mysql client you prefer and create a database. (I personally recommend Dbeaver)
