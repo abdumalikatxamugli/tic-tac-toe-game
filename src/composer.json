@@ -1,0 +1,19 @@
+{
+    "name": "abdumalik/tic-tac-toe",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abdumalik"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "fakerphp/faker": "^1.21",
+        "codeguy/upload": "^1.3"
+    }
+}

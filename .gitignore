@@ -1,0 +1,5 @@
+src/.env
+src/storage
+src/vendor
+docker/data
+public/storage
