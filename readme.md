@@ -29,4 +29,6 @@ Setup instuctions:
 
 8. Now open address http://localhost:8000 on your browser. You should see the login page show up in your screen. Have fun.
 
+P.S. The instructions are intented for personal use and not meant for production deployment.
+
 P.S. I know that the bot you are playing against is probably the dumbest ever player ever existed, I have some thoughts about how to make it smarter like by making decision tree and making it choose the shortest path to victory, I try to implement it when I manage find free time to work on it again.
