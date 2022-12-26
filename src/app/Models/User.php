@@ -41,8 +41,11 @@ class User extends Model
     }
     public function decrementLevel()
     {
-        $this->level = $this->level - 1;
-        $this->save();
+        if($this->level > 1)
+        {
+            $this->level = $this->level - 1;
+            $this->save();
+        }
     }
     public function hasGroup()
     {
