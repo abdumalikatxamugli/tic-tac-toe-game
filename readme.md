@@ -11,7 +11,7 @@ Setup instuctions:
 
 ``` docker compose up -d --build```
 
-3. Connect to mysql server of docker with whatever mysql client you prefer and create a database. (I personally recommend Dbeaver)
+3. Connect to mysql server of running in the docker container with whatever mysql client you prefer and create a database. (I personally recommend Dbeaver)
 
 4. Run bash in php-container in interactive mode.
 
@@ -27,7 +27,7 @@ Setup instuctions:
 
 ```cd src && php setup_db.php```
 
-8. Now open address http://localhost:8000 on your browser. You should see the login page show up in your screen. Have fun.
+8. Now open address http://localhost:80 on your browser. You should see the login page show up in your screen. Have fun.
 
 P.S. The instructions are intented for personal use and not meant for production deployment.
 
