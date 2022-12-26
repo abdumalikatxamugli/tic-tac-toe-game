@@ -61,7 +61,7 @@
                         </ul>
                     </div>
                     <div>
-                        <span>Games:</span>
+                        <span>Watch Games:</span>
                         <ul>
                             <?php foreach($games as $game):?>
                                 <li>
